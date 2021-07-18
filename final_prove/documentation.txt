@@ -1,0 +1,47 @@
+----------LESSON 11------------
+
+Started project with a crime statistics API.
+API does not currently work, as demonstrated by program and reported by discussion board
+
+Switched program to recipe searching tool using Tasty API
+
+API found on RapidAPI: https://rapidapi.com/apidojo/api/tasty/
+    Spent a lot of time examining the JSON data structure to determine potential ways
+    of searching and returning data
+
+Started with website: https://www.nylas.com/blog/use-python-requests-module-rest-apis/
+
+Read through article on requests: https://realpython.com/python-requests/
+
+Read through article on JSON module: https://python.gotrained.com/python-json-api-tutorial/
+
+Completed request test with error testing to determine status of connection
+Completed request for recipes according to lists
+Added json data manipulation variables to improve format of text data
+Added multiple search url's and strings for search parameters to be used in different functions
+Added input variables for user requests
+
+
+----------LESSON 12 PROVE-----------
+
+Explored the data from the API to determine accuracy of search "tags"
+
+Created dictionary of valid and robust search tags according to categories
+with value pairs of lists in order to search in a separate file to reference for randomization
+
+Created several functions:
+    retrieve_list()
+    retrieve_tags()
+    print_tags()
+    random_tags()
+
+Checked w3 schools for a few references on some built-in methods
+
+No additional resources were used
+
+Program will now create a random list of recipe tags according to user preference for several categories
+or entirely at random
+
+Program will produce x number of recipes requested by user in json object format
+
+Program will filter and format information for user-friendly display
